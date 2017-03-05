@@ -67,4 +67,8 @@ $("#nySearch").submit(function(event){
     }
   });
 })
-// party area 
+// party area
+$("#clearBtn").on('click', function(event) {
+  event.preventDefault();
+  $('#articles').empty();
+});
